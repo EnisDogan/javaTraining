@@ -15,5 +15,17 @@ public class ls_17_arrays {
 
         }
 
+        int[] sayilar = new int[6];
+        sayilar[0] = 15;
+        sayilar[1] = 14;
+        sayilar[2] = 13;
+        sayilar[3] = 12;
+        sayilar[4] = 11;
+        sayilar[5] = 10;
+
+        for (int i = 0; i < sayilar.length; i++){
+            System.out.println(sayilar[i]);
+        }
+
     }
 }
