@@ -63,21 +63,25 @@ public class Idman {
     }
 
     public void burpeeYap(int sayi){
+        burpee_sayisi -= sayi;
         if (burpee_sayisi == 0){
             System.out.println("Yapacak burpee kalmadi...");
+
         }
+
         if (burpee_sayisi < 0){
             System.out.println("Hedefledigin burpee sayisini gectin... Tebrikler !!!");
             burpee_sayisi = 0;
             System.out.println("Kalan burpee sayisi : " + burpee_sayisi);
         }
         else {
-            burpee_sayisi -= sayi;
+
 
             System.out.println("Kalan burpee sayisi : " + burpee_sayisi);
         }
     }
     public void pushupYap(int sayi){
+        pushup_sayisi -= sayi;
         if (pushup_sayisi == 0){
             System.out.println("Yapacak pushup kalmadi...");
         }
@@ -87,12 +91,13 @@ public class Idman {
             System.out.println("Kalan pushup sayisi : " + pushup_sayisi);
         }
         else {
-            pushup_sayisi -= sayi;
 
             System.out.println("Kalan pushup sayisi : " + pushup_sayisi);
         }
     }
     public void situpYap(int sayi){
+        situp_sayisi -= sayi;
+
         if (situp_sayisi == 0){
             System.out.println("Yapacak situp kalmadi...");
         }
@@ -102,12 +107,13 @@ public class Idman {
             System.out.println("Kalan burpee sayisi : " + situp_sayisi);
         }
         else {
-            situp_sayisi -= sayi;
 
             System.out.println("Kalan burpee sayisi : " + situp_sayisi);
         }
     }
     public void squatYap(int sayi){
+        squat_sayisi -= sayi;
+
         if (squat_sayisi == 0){
             System.out.println("Yapacak squat kalmadi...");
         }
@@ -117,7 +123,6 @@ public class Idman {
             System.out.println("Kalan squat sayisi : " + squat_sayisi);
         }
         else {
-            squat_sayisi -= sayi;
 
             System.out.println("Kalan burpee sayisi : " + squat_sayisi);
         }
